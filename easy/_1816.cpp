@@ -29,7 +29,7 @@ int main() {
 
     cout << truncateSentence(s, k) << endl;
 
-    return -1;
+    return 0;
 }
 
 /*
