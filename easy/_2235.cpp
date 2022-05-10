@@ -12,7 +12,7 @@ int main() {
 
     cout << sum(num1, num2) << endl;
 
-    return -1;
+    return 0;
 }
 
 /*

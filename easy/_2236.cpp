@@ -23,7 +23,7 @@ int main() {
 
     std::cout << checkTree(root) << std::endl;
 
-    return -1;
+    return 0;
 }
 
 /*
