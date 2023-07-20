@@ -10,11 +10,7 @@ def groupAnagrams(strs: List[str]) -> List[List[str]]:
         else:
             string_to_anagram[sorted_str] = [word]
 
-    res = []
-    for key in string_to_anagram:
-        res.append(string_to_anagram[key])
-
-    return res
+    return string_to_anagram.values()
 
 strs = ["eat","tea","tan","ate","nat","bat"]
 print(groupAnagrams(strs))
